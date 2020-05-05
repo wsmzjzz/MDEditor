@@ -17,7 +17,7 @@ public:
   explicit MainWindow(QWidget *parent = nullptr);
   ~MainWindow();
   EditorText mdContent;
-  QString mdfilePath;
+  QString mdFilePath;
 private slots:
 
   void on_actionOpen_File_triggered();
